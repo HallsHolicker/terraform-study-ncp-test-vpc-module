@@ -12,7 +12,7 @@
 
 
 ``` hcl
-vvariable "vpc_subnet_create_auto" {
+variable "vpc_subnet_create_auto" {
   description = "Auto create subnet"
   type = list(object({
     auto_create_enable = bool       // Auto Create Enable/Disable
